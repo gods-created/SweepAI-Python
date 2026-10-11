@@ -1,0 +1,13 @@
+__pycache__
+*/__pycache__/*
+
+.env
+.venv
+.vscode
+.env.example
+.dockerignore
+
+/assets/temporary_files/*.py 
+
+docker-compose.yml
+tests

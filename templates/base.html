@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SweepAI-Python: {% block title %}{% endblock %}</title>
+
+    <link href="{{ url_for('static', path='/css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', path='/css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    {% include 'layouts/header.html' %}
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    {% include 'layouts/footer.html' %}
+
+    {% include 'layouts/spinner.html' %}
+
+    <script src="{{ url_for('static', path='/js/bootstrap/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/main.js') }}" type="module"></script>
+</body>
+</html>

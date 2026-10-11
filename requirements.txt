@@ -1,0 +1,17 @@
+strands-agents
+ollama
+scikit-learn
+pandas
+
+python-dotenv
+loguru
+
+fastapi
+starlette
+pydantic
+httpx
+uvicorn
+python-multipart
+Jinja2
+
+# python -m pip install --no-cache-dir --upgrade -r requirements.txt
