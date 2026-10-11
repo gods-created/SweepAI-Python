@@ -5,7 +5,7 @@ on:
 
 jobs:
   docker-repo-update: 
-    runs-on: ubuntu/latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Setup environmet
